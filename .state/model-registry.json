@@ -1,7 +1,7 @@
 {
   "_schema": "warden.model-registry.v1",
   "description": "Auto-discovered and statically registered model endpoints, capabilities, and pricing metrics.",
-  "updatedAt": "2026-10-27T12:06:53.878Z",
+  "updatedAt": "2026-10-27T21:27:58.946Z",
   "models": {
     "gemini-2.5-pro": {
       "provider": "google",
@@ -324,22 +324,6 @@
         "outputPer1MUsd": 0,
         "cachedInputPer1MUsd": 0
       }
-    },
-    "1.": {
-      "provider": "custom",
-      "tier": "tier1_architect",
-      "displayName": "1.",
-      "contextWindow": 128000,
-      "maxOutputTokens": 8192,
-      "supportsToolUse": true,
-      "supportsThinking": false,
-      "pricing": {
-        "inputPer1MUsd": 1,
-        "outputPer1MUsd": 10,
-        "cachedInputPer1MUsd": 0.6
-      },
-      "discoveredAt": "2026-10-27T12:06:53.878Z",
-      "autoDiscovered": true
     }
   }
 }
